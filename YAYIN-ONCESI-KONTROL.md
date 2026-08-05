@@ -1,8 +1,6 @@
 # Yayın Öncesi Kontrol Listesi
 
-Site tamamen statik HTML + CSS + vanilla JS ile hazırlandı (build sistemi yok). Şu an GitHub Pages'te geçici adreste yayında:
-
-👉 https://m0hamedg.github.io/ilgazairbag/
+Site tamamen statik HTML + CSS + vanilla JS ile hazırlandı (build sistemi yok). Domain: **www.ilgazairbag.com** (canonical/OG/sitemap/robots hepsi bu adrese göre ayarlandı, CNAME dosyası eklendi).
 
 ## ✅ Tamamlananlar
 
@@ -15,7 +13,8 @@ Site tamamen statik HTML + CSS + vanilla JS ile hazırlandı (build sistemi yok)
 - **Deneyim**: "10+ Yıllık Tecrübe", 2016 kuruluş yılı metne işlendi.
 - **Hizmet isimleri**: "Torpido Tamiri" → "Torpido Kaplama ve Tamiri", "Direksiyon Airbagi" → "Airbag Ekspertiz" (görünen metinler güncellendi, dosya adları/URL'ler SEO kırılmasın diye aynı kaldı).
 - **Dosya yolları**: Tüm iç linkler göreli (`css/style.css`, `../hizmetler/...` gibi) yazıldı — site herhangi bir alt klasörde (mevcut GitHub Pages adresi gibi) veya domain kökünde sorunsuz çalışır.
-- **SEO adresleri**: robots.txt, sitemap.xml, rss.xml ve tüm sayfalardaki canonical/OG/JSON-LD URL'leri **geçici olarak** `https://m0hamedg.github.io/ilgazairbag/` adresine ayarlandı (Search Console kurulumu için).
+- **SEO adresleri**: robots.txt, sitemap.xml, rss.xml ve tüm sayfalardaki canonical/OG/JSON-LD URL'leri `https://www.ilgazairbag.com/` adresine güncellendi.
+- **CNAME**: GitHub Pages'in domain'i tanıması için repo köküne `CNAME` dosyası eklendi (içeriği: `www.ilgazairbag.com`).
 
 ## ⚠️ Hâlâ Placeholder / Eksik Olanlar
 
@@ -27,12 +26,14 @@ Site tamamen statik HTML + CSS + vanilla JS ile hazırlandı (build sistemi yok)
 | `https://www.google.com/maps?q=Ilgaz%20Airbag...` | Harita gömme | Gerçek adresle/Google Maps "Yerleştir" koduyla değiştirilmeli |
 | `images/og-cover.jpg` | Sosyal paylaşım kapak görseli | Henüz eklenmedi (1200x630 önerilir) |
 
-## 🔴 Önemli: Özel Domain Alındığında Yapılacaklar
+## 🔴 Domain Bağlama — Yapılacaklar (DNS + GitHub Pages)
 
-Şu an tüm canonical/OG/sitemap/robots URL'leri **geçici** GitHub Pages adresini (`m0hamedg.github.io/ilgazairbag`) gösteriyor. Gerçek bir alan adı (örn. `ilgazairbag.com`) alıp bağladığınızda:
-1. Bu URL'lerin hepsinin gerçek domain'e güncellenmesi gerekir (toplu bul-değiştir ile hızlıca yapılabilir).
-2. Google Search Console'a yeni domain'i ayrı bir mülk (property) olarak eklemek ve sitemap'i yeniden göndermek gerekir.
-3. GitHub Pages ayarlarında Custom domain alanına yeni domain girilmeli.
+1. **DNS ayarları** (domain'i aldığınız yerde, örn. Natro/GoDaddy/Cloudflare paneli):
+   - `www` için CNAME kaydı → `m0hamedg.github.io`
+   - Kök domain (`ilgazairbag.com`, "@" ile gösterilir) için 4 adet A kaydı → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+2. **GitHub Pages ayarları**: Settings → Pages → Custom domain kutusuna `www.ilgazairbag.com` yazıp Save. DNS yayılması birkaç dakika–birkaç saat sürebilir.
+3. **HTTPS**: DNS doğrulandıktan sonra "Enforce HTTPS" kutusu otomatik aktif olur (sertifika üretimi biraz zaman alabilir).
+4. **Google Search Console**: `www.ilgazairbag.com` için yeni bir mülk (property) açılmalı, sitemap (`sitemap.xml`) yeniden gönderilmeli. Önceki geçici GitHub Pages adresi (m0hamedg.github.io/ilgazairbag) için mülk açtıysanız o ayrı kalır, artık kullanılmayacak.
 
 ## Diğer
 
