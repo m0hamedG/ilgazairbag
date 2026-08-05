@@ -269,7 +269,8 @@ section { padding: 80px 0; }
 /* Zaten sıkı kadrajlı yakın çekimler — dikeyde kaydırmaya gerek yok */
 .site-photo[src*="teknisyen"],
 .site-photo[src*="direksiyon-airbag"],
-.site-photo[src*="airbag-beyni-elektronik"] {
+.site-photo[src*="airbag-beyni-pcb"],
+.site-photo[src*="emniyet-kemeri"] {
   object-position: center;
 }
 
