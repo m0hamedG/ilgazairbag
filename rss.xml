@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>Ilgaz Airbag Blog</title>
-  <link>https://www.ilgazairbag.com/blog.html</link>
+  <link>https://m0hamedg.github.io/ilgazairbag/blog.html</link>
   <description>Airbag tamiri, airbag beyni onarımı ve araç güvenliği hakkında bilgilendirici yazılar.</description>
   <language>tr-TR</language>
-  <atom:link href="https://www.ilgazairbag.com/rss.xml" rel="self" type="application/rss+xml"/>
+  <atom:link href="https://m0hamedg.github.io/ilgazairbag/rss.xml" rel="self" type="application/rss+xml"/>
 
   <item>
     <title>Airbag Nedir?</title>
-    <link>https://www.ilgazairbag.com/blog/airbag-nedir.html</link>
-    <guid>https://www.ilgazairbag.com/blog/airbag-nedir.html</guid>
+    <link>https://m0hamedg.github.io/ilgazairbag/blog/airbag-nedir.html</link>
+    <guid>https://m0hamedg.github.io/ilgazairbag/blog/airbag-nedir.html</guid>
     <description>Airbag sisteminin çalışma prensibi ve araç güvenliğindeki rolü.</description>
     <pubDate>Mon, 12 Jan 2026 09:00:00 +0300</pubDate>
   </item>
   <item>
     <title>Airbag Lambası Neden Yanar?</title>
-    <link>https://www.ilgazairbag.com/blog/airbag-lambasi-neden-yanar.html</link>
-    <guid>https://www.ilgazairbag.com/blog/airbag-lambasi-neden-yanar.html</guid>
+    <link>https://m0hamedg.github.io/ilgazairbag/blog/airbag-lambasi-neden-yanar.html</link>
+    <guid>https://m0hamedg.github.io/ilgazairbag/blog/airbag-lambasi-neden-yanar.html</guid>
     <description>Gösterge panelindeki airbag arıza lambasının olası nedenleri.</description>
     <pubDate>Tue, 03 Feb 2026 09:00:00 +0300</pubDate>
   </item>
   <item>
     <title>Kaza Sonrası Airbag Değişimi</title>
-    <link>https://www.ilgazairbag.com/blog/kaza-sonrasi-airbag-degisimi.html</link>
-    <guid>https://www.ilgazairbag.com/blog/kaza-sonrasi-airbag-degisimi.html</guid>
+    <link>https://m0hamedg.github.io/ilgazairbag/blog/kaza-sonrasi-airbag-degisimi.html</link>
+    <guid>https://m0hamedg.github.io/ilgazairbag/blog/kaza-sonrasi-airbag-degisimi.html</guid>
     <description>Kaza sonrası airbag ne zaman değişmeli, ne zaman tamir edilebilir?</description>
     <pubDate>Fri, 20 Feb 2026 09:00:00 +0300</pubDate>
   </item>
