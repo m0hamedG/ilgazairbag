@@ -17,7 +17,9 @@
 <link rel="icon" href="images/logo.jpg" type="image/jpeg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="css/style.css">
 <script type="application/ld+json">
 {
@@ -35,7 +37,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="index.html" class="logo">
-      <img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark">
+      <picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"></picture>
       <span class="logo-text">Ilgaz <span>Airbag</span></span>
     </a>
     <nav class="main-nav" id="mainNav">
@@ -85,7 +87,7 @@
         <p>2016 yılından bu yana Ilgaz Airbag, araç güvenlik sistemlerindeki uzmanlığını geliştirerek bugün airbag tamiri, airbag beyni onarımı ve emniyet kemeri sistemleri alanında güvenilir bir marka haline geldi. Atölyemizde her araç, güvenlik standartlarına tam uyum gözetilerek titizlikle onarılır.</p>
         <p>Kuruluşumuzdan bu yana binlerce aracın airbag arızasını başarıyla giderdik. Amacımız sadece arızayı gidermek değil, yolun sonuna kadar sürücü ve yolcu güvenliğini teminat altına almaktır.</p>
       </div>
-      <img src="images/atolye-1.jpg" width="750" height="1000" alt="Ilgaz Airbag atölyesinde onarım süreci" loading="lazy" class="site-photo" data-reveal style="height:340px;">
+      <picture><source srcset="images/atolye-1.webp" type="image/webp"><img src="images/atolye-1.jpg" width="750" height="1000" alt="Ilgaz Airbag atölyesinde onarım süreci" loading="lazy" class="site-photo" data-reveal style="height:340px;"></picture>
     </div>
   </div>
 </section>
@@ -119,9 +121,9 @@
       <h2>Çalışma Ortamımızdan Kareler</h2>
     </div>
     <div class="grid grid-3">
-      <img src="images/atolye-2.jpg" width="1000" height="750" alt="Atölyemizde onarım aşamasındaki araç" loading="lazy" class="site-photo" data-reveal>
-      <img src="images/teknisyen.jpg" width="750" height="1000" alt="Uzman teknisyenimiz airbag onarımı yaparken" loading="lazy" class="site-photo" data-reveal>
-      <img src="images/tamir-sureci.jpg" width="1000" height="750" alt="Airbag onarım sürecinden bir kare" loading="lazy" class="site-photo" data-reveal>
+      <picture><source srcset="images/atolye-2.webp" type="image/webp"><img src="images/atolye-2.jpg" width="1000" height="750" alt="Atölyemizde onarım aşamasındaki araç" loading="lazy" class="site-photo" data-reveal></picture>
+      <picture><source srcset="images/teknisyen.webp" type="image/webp"><img src="images/teknisyen.jpg" width="750" height="1000" alt="Uzman teknisyenimiz airbag onarımı yaparken" loading="lazy" class="site-photo" data-reveal></picture>
+      <picture><source srcset="images/tamir-sureci.webp" type="image/webp"><img src="images/tamir-sureci.jpg" width="1000" height="750" alt="Airbag onarım sürecinden bir kare" loading="lazy" class="site-photo" data-reveal></picture>
     </div>
   </div>
 </section>
@@ -143,7 +145,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-about">
-        <a href="index.html" class="logo"><img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"><span class="logo-text">Ilgaz Airbag</span></a>
+        <a href="index.html" class="logo"><picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"></picture><span class="logo-text">Ilgaz Airbag</span></a>
         <p>Her marka ve model araç için profesyonel airbag tamiri, airbag beyni onarımı ve emniyet kemeri sistemleri. Uzman kadro, garantili işçilik.</p>
         <div class="social-links">
           <a href="https://www.instagram.com/ilgaz.airbag" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>

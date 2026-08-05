@@ -20,7 +20,9 @@
 <link rel="icon" href="../images/logo.jpg" type="image/jpeg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="../css/style.css">
 <script type="application/ld+json">
 {
@@ -49,7 +51,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="../index.html" class="logo">
-      <img src="../images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark">
+      <picture><source srcset="../images/logo.webp" type="image/webp"><img src="../images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"></picture>
       <span class="logo-text">Ilgaz <span>Airbag</span></span>
     </a>
     <nav class="main-nav" id="mainNav">
@@ -100,7 +102,7 @@
         <p>Ilgaz Airbag olarak direksiyon airbag ünitelerini güvenli şekilde söküp, gerekli onarımları gerçekleştirip, klakson ve direksiyon fonksiyonlarını bozmadan yeniden monte ediyoruz.</p>
         <p>Her direksiyon airbag onarımı sonrasında ünite, tetikleme devresi ve gösterge paneli uyarı sistemi test edilerek sorunsuz çalıştığından emin olunur.</p>
       </div>
-      <img src="../images/direksiyon-airbag.jpg" width="1000" height="665" alt="Teknisyenimiz direksiyon airbag ünitesini özenle sökerken" loading="lazy" class="site-photo" data-reveal style="height:340px;">
+      <picture><source srcset="../images/direksiyon-airbag.webp" type="image/webp"><img src="../images/direksiyon-airbag.jpg" width="1000" height="665" alt="Teknisyenimiz direksiyon airbag ünitesini özenle sökerken" loading="lazy" class="site-photo" data-reveal style="height:340px;"></picture>
     </div>
   </div>
 </section>
@@ -180,7 +182,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-about">
-        <a href="../index.html" class="logo"><img src="../images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"><span class="logo-text">Ilgaz Airbag</span></a>
+        <a href="../index.html" class="logo"><picture><source srcset="../images/logo.webp" type="image/webp"><img src="../images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"></picture><span class="logo-text">Ilgaz Airbag</span></a>
         <p>Her marka ve model araç için profesyonel airbag tamiri, airbag beyni onarımı ve emniyet kemeri sistemleri. Uzman kadro, garantili işçilik.</p>
         <div class="social-links">
           <a href="https://www.instagram.com/ilgaz.airbag" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>

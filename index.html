@@ -21,8 +21,11 @@
 <link rel="alternate" type="application/rss+xml" title="Ilgaz Airbag Blog RSS" href="rss.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="images/hero-arkaplan.webp" type="image/webp" fetchpriority="high">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -57,7 +60,7 @@
 <header class="site-header">
   <div class="container header-inner">
     <a href="index.html" class="logo">
-      <img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark">
+      <picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"></picture>
       <span class="logo-text">Ilgaz <span>Airbag</span></span>
     </a>
     <nav class="main-nav" id="mainNav">
@@ -276,23 +279,23 @@
     </div>
     <div class="grid grid-4">
       <div class="product-card" data-reveal>
-        <img src="images/airbag-genel.jpg" width="562" height="1000" alt="Deploy olmuş sürücü airbag ünitesi yakın çekim" loading="lazy" class="site-photo">
+        <picture><source srcset="images/airbag-genel.webp" type="image/webp"><img src="images/airbag-genel.jpg" width="562" height="1000" alt="Deploy olmuş sürücü airbag ünitesi yakın çekim" loading="lazy" class="site-photo"></picture>
         <div class="product-body"><h3>Airbag</h3><a href="urunler/airbag.html" class="btn btn-outline-dark btn-sm btn-block">İncele</a></div>
       </div>
       <div class="product-card" data-reveal>
-        <img src="images/direksiyon-airbag.jpg" width="1000" height="665" alt="Teknisyenimiz direksiyon airbag ünitesini özenle sökerken" loading="lazy" class="site-photo">
+        <picture><source srcset="images/direksiyon-airbag.webp" type="image/webp"><img src="images/direksiyon-airbag.jpg" width="1000" height="665" alt="Teknisyenimiz direksiyon airbag ünitesini özenle sökerken" loading="lazy" class="site-photo"></picture>
         <div class="product-body"><h3>Direksiyon</h3><a href="urunler/direksiyon.html" class="btn btn-outline-dark btn-sm btn-block">İncele</a></div>
       </div>
       <div class="product-card" data-reveal>
-        <img src="images/torpido-airbag.jpg" width="562" height="1000" alt="Torpido bölümünde açılmış yolcu airbag ünitesi" loading="lazy" class="site-photo">
+        <picture><source srcset="images/torpido-airbag.webp" type="image/webp"><img src="images/torpido-airbag.jpg" width="562" height="1000" alt="Torpido bölümünde açılmış yolcu airbag ünitesi" loading="lazy" class="site-photo"></picture>
         <div class="product-body"><h3>Torpido</h3><a href="urunler/torpido.html" class="btn btn-outline-dark btn-sm btn-block">İncele</a></div>
       </div>
       <div class="product-card" data-reveal>
-        <img src="images/emniyet-kemeri.jpg" width="1000" height="839" alt="Emniyet kemeri gergi mekanizması (pretansiyoner) ve toka takımı" loading="lazy" class="site-photo">
+        <picture><source srcset="images/emniyet-kemeri.webp" type="image/webp"><img src="images/emniyet-kemeri.jpg" width="1000" height="839" alt="Emniyet kemeri gergi mekanizması (pretansiyoner) ve toka takımı" loading="lazy" class="site-photo"></picture>
         <div class="product-body"><h3>Emniyet Kemeri</h3><a href="urunler/emniyet-kemeri.html" class="btn btn-outline-dark btn-sm btn-block">İncele</a></div>
       </div>
       <div class="product-card" data-reveal>
-        <img src="images/airbag-beyni-pcb.jpg" width="1000" height="987" alt="Airbag beyni (SRS ünitesi) devre kartı onarımı, hassas prob testi" loading="lazy" class="site-photo">
+        <picture><source srcset="images/airbag-beyni-pcb.webp" type="image/webp"><img src="images/airbag-beyni-pcb.jpg" width="1000" height="987" alt="Airbag beyni (SRS ünitesi) devre kartı onarımı, hassas prob testi" loading="lazy" class="site-photo"></picture>
         <div class="product-body"><h3>Airbag Beyni</h3><a href="urunler/airbag-beyni.html" class="btn btn-outline-dark btn-sm btn-block">İncele</a></div>
       </div>
     </div>
@@ -308,7 +311,7 @@
     </div>
     <div class="grid grid-3">
       <article class="blog-card" data-reveal>
-        <img src="images/airbag-genel.jpg" width="562" height="1000" alt="Deploy olmuş sürücü airbag ünitesi yakın çekim" loading="lazy" class="site-photo">
+        <picture><source srcset="images/airbag-genel.webp" type="image/webp"><img src="images/airbag-genel.jpg" width="562" height="1000" alt="Deploy olmuş sürücü airbag ünitesi yakın çekim" loading="lazy" class="site-photo"></picture>
         <div class="blog-body">
           <span class="meta">Rehber</span>
           <h3>Airbag Nedir?</h3>
@@ -317,7 +320,7 @@
         </div>
       </article>
       <article class="blog-card" data-reveal>
-        <img src="images/direksiyon-airbag.jpg" width="1000" height="665" alt="Teknisyenimiz direksiyon airbag ünitesini özenle sökerken" loading="lazy" class="site-photo">
+        <picture><source srcset="images/direksiyon-airbag.webp" type="image/webp"><img src="images/direksiyon-airbag.jpg" width="1000" height="665" alt="Teknisyenimiz direksiyon airbag ünitesini özenle sökerken" loading="lazy" class="site-photo"></picture>
         <div class="blog-body">
           <span class="meta">Arıza</span>
           <h3>Airbag Lambası Neden Yanar?</h3>
@@ -326,7 +329,7 @@
         </div>
       </article>
       <article class="blog-card" data-reveal>
-        <img src="images/kaza-sonrasi-triptik.jpg" width="563" height="1000" alt="Kaza sonrası airbag'leri patlamış bir aracın iç mekanı" loading="lazy" class="site-photo">
+        <picture><source srcset="images/kaza-sonrasi-triptik.webp" type="image/webp"><img src="images/kaza-sonrasi-triptik.jpg" width="563" height="1000" alt="Kaza sonrası airbag'leri patlamış bir aracın iç mekanı" loading="lazy" class="site-photo"></picture>
         <div class="blog-body">
           <span class="meta">Kaza Sonrası</span>
           <h3>Kaza Sonrası Airbag Değişimi</h3>
@@ -516,7 +519,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-about">
-        <a href="index.html" class="logo"><img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"><span class="logo-text">Ilgaz Airbag</span></a>
+        <a href="index.html" class="logo"><picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.jpg" width="512" height="512" alt="Ilgaz Airbag Logo" class="logo-mark"></picture><span class="logo-text">Ilgaz Airbag</span></a>
         <p>Her marka ve model araç için profesyonel airbag tamiri, airbag beyni onarımı ve emniyet kemeri sistemleri. Uzman kadro, garantili işçilik.</p>
         <div class="social-links">
           <a href="https://www.instagram.com/ilgaz.airbag" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
