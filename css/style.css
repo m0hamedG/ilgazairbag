@@ -253,6 +253,11 @@ section { padding: 80px 0; }
 }
 .product-card .site-photo, .blog-card .site-photo { height: 200px; border-radius: 0; }
 
+/* Üç kareli (öncesi/sırası/sonrası) tam boy fotoğraf — kırpılmadan gösterilir */
+.site-photo.triptych {
+  height: auto; max-height: 720px; object-position: center;
+}
+
 /* Arıza tespiti diagnostik cihaz galerisi (2x2) */
 .diag-gallery {
   display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
