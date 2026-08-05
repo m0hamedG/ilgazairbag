@@ -1,0 +1,25 @@
+# 404 sayfası
+ErrorDocument 404 /404.html
+
+# Sıkıştırma
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json image/svg+xml application/xml
+</IfModule>
+
+# Tarayıcı önbellekleme
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# www yönlendirmesi (canonical: www.ilgazairbag.com)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
+</IfModule>

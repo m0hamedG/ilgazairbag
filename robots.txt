@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://m0hamedg.github.io/ilgazairbag/sitemap.xml
+Sitemap: https://www.ilgazairbag.com/sitemap.xml
