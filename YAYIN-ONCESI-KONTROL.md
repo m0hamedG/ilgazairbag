@@ -1,6 +1,10 @@
 # Yayın Öncesi Kontrol Listesi
 
-Site tamamen statik HTML + CSS + vanilla JS ile hazırlandı (build sistemi yok). Domain: **www.ilgazairbag.com** (canonical/OG/sitemap/robots hepsi bu adrese göre ayarlandı, CNAME dosyası eklendi).
+Site tamamen statik HTML + CSS + vanilla JS ile hazırlandı (build sistemi yok). Şu an geçici GitHub Pages adresinde yayında:
+
+👉 https://m0hamedg.github.io/ilgazairbag/
+
+**Not**: `www.ilgazairbag.com` domain'i için yapılan CNAME/URL ayarları geri alındı (kullanıcı talebiyle). DNS ve GitHub Pages Custom Domain ayarı hiçbir zaman gerçek bir yerde yapılandırılmadı — sadece repodaki CNAME dosyası ve site içi URL'ler geri döndürüldü. Domain'i bağlamaya hazır olduğunuzda bu bölüm tekrar güncellenecek.
 
 ## ✅ Tamamlananlar
 
